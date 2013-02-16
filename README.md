@@ -1,6 +1,6 @@
 # iOS-Store
 
-ACStoreProductViewController is a replacement for SKStoreProductViewController compatible with iOS5 *and* which accepts affiliates links.
+ACStoreProductViewController is a replacement for [SKStoreProductViewController](http://developer.apple.com/library/ios/#documentation/StoreKit/Reference/SKITunesProductViewController_Ref/Introduction/Introduction.html) compatible with iOS5 *and* which accepts affiliates links.
 
 ## Usage
 
