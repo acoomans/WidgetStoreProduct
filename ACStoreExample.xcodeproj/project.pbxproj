@@ -17,13 +17,15 @@
 		51CD25F116CF16BA00D084B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CD25F016CF16BA00D084B5 /* Default@2x.png */; };
 		51CD25F316CF16BA00D084B5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CD25F216CF16BA00D084B5 /* Default-568h@2x.png */; };
 		51CD25F616CF16BA00D084B5 /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CD25F516CF16BA00D084B5 /* ACViewController.m */; };
-		51CD25F916CF16BA00D084B5 /* ACViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CD25F716CF16BA00D084B5 /* ACViewController_iPhone.xib */; };
-		51CD25FC16CF16BA00D084B5 /* ACViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CD25FA16CF16BA00D084B5 /* ACViewController_iPad.xib */; };
+		51CD25F916CF16BA00D084B5 /* ACViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CD25F716CF16BA00D084B5 /* ACViewController.xib */; };
 		51CD260416CF16BA00D084B5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CD260316CF16BA00D084B5 /* SenTestingKit.framework */; };
 		51CD260516CF16BA00D084B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CD25DC16CF16B900D084B5 /* UIKit.framework */; };
 		51CD260616CF16BA00D084B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CD25DE16CF16B900D084B5 /* Foundation.framework */; };
 		51CD260E16CF16BA00D084B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51CD260C16CF16BA00D084B5 /* InfoPlist.strings */; };
 		51CD261116CF16BA00D084B5 /* ACStoreExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CD261016CF16BA00D084B5 /* ACStoreExampleTests.m */; };
+		51CD261D16CF16F900D084B5 /* ACStoreProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CD261C16CF16F900D084B5 /* ACStoreProductViewController.m */; };
+		51CD261F16CF177900D084B5 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CD261E16CF177900D084B5 /* StoreKit.framework */; };
+		51CD262216CF1C2400D084B5 /* NSDictionary+QueryStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CD262116CF1C2400D084B5 /* NSDictionary+QueryStringBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		517ADF3F16CF524600629D1B /* ACStoreProductViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACStoreProductViewControllerDelegate.h; sourceTree = "<group>"; };
+		517ADF4016CF546A00629D1B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		51CD25D916CF16B900D084B5 /* ACStoreExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACStoreExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CD25DC16CF16B900D084B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		51CD25DE16CF16B900D084B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,14 +56,18 @@
 		51CD25F216CF16BA00D084B5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		51CD25F416CF16BA00D084B5 /* ACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
 		51CD25F516CF16BA00D084B5 /* ACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
-		51CD25F816CF16BA00D084B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPhone.xib; sourceTree = "<group>"; };
-		51CD25FB16CF16BA00D084B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController_iPad.xib; sourceTree = "<group>"; };
+		51CD25F816CF16BA00D084B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACViewController.xib; sourceTree = "<group>"; };
 		51CD260216CF16BA00D084B5 /* ACStoreExampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACStoreExampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CD260316CF16BA00D084B5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		51CD260B16CF16BA00D084B5 /* ACStoreExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACStoreExampleTests-Info.plist"; sourceTree = "<group>"; };
 		51CD260D16CF16BA00D084B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51CD260F16CF16BA00D084B5 /* ACStoreExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACStoreExampleTests.h; sourceTree = "<group>"; };
 		51CD261016CF16BA00D084B5 /* ACStoreExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACStoreExampleTests.m; sourceTree = "<group>"; };
+		51CD261B16CF16F900D084B5 /* ACStoreProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACStoreProductViewController.h; sourceTree = "<group>"; };
+		51CD261C16CF16F900D084B5 /* ACStoreProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACStoreProductViewController.m; sourceTree = "<group>"; };
+		51CD261E16CF177900D084B5 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		51CD262016CF1C2400D084B5 /* NSDictionary+QueryStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryStringBuilder.h"; sourceTree = "<group>"; };
+		51CD262116CF1C2400D084B5 /* NSDictionary+QueryStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryStringBuilder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CD261F16CF177900D084B5 /* StoreKit.framework in Frameworks */,
 				51CD25DD16CF16B900D084B5 /* UIKit.framework in Frameworks */,
 				51CD25DF16CF16B900D084B5 /* Foundation.framework in Frameworks */,
 				51CD25E116CF16B900D084B5 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +98,8 @@
 		51CD25D016CF16B900D084B5 = {
 			isa = PBXGroup;
 			children = (
+				517ADF4016CF546A00629D1B /* README.md */,
+				51CD261A16CF16D400D084B5 /* ACStore */,
 				51CD25E216CF16B900D084B5 /* ACStoreExample */,
 				51CD260916CF16BA00D084B5 /* ACStoreExampleTests */,
 				51CD25DB16CF16B900D084B5 /* Frameworks */,
@@ -108,6 +119,7 @@
 		51CD25DB16CF16B900D084B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51CD261E16CF177900D084B5 /* StoreKit.framework */,
 				51CD25DC16CF16B900D084B5 /* UIKit.framework */,
 				51CD25DE16CF16B900D084B5 /* Foundation.framework */,
 				51CD25E016CF16B900D084B5 /* CoreGraphics.framework */,
@@ -123,8 +135,7 @@
 				51CD25EC16CF16B900D084B5 /* ACAppDelegate.m */,
 				51CD25F416CF16BA00D084B5 /* ACViewController.h */,
 				51CD25F516CF16BA00D084B5 /* ACViewController.m */,
-				51CD25F716CF16BA00D084B5 /* ACViewController_iPhone.xib */,
-				51CD25FA16CF16BA00D084B5 /* ACViewController_iPad.xib */,
+				51CD25F716CF16BA00D084B5 /* ACViewController.xib */,
 				51CD25E316CF16B900D084B5 /* Supporting Files */,
 			);
 			path = ACStoreExample;
@@ -161,6 +172,18 @@
 				51CD260C16CF16BA00D084B5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51CD261A16CF16D400D084B5 /* ACStore */ = {
+			isa = PBXGroup;
+			children = (
+				51CD261B16CF16F900D084B5 /* ACStoreProductViewController.h */,
+				51CD261C16CF16F900D084B5 /* ACStoreProductViewController.m */,
+				517ADF3F16CF524600629D1B /* ACStoreProductViewControllerDelegate.h */,
+				51CD262016CF1C2400D084B5 /* NSDictionary+QueryStringBuilder.h */,
+				51CD262116CF1C2400D084B5 /* NSDictionary+QueryStringBuilder.m */,
+			);
+			path = ACStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +262,7 @@
 				51CD25EF16CF16BA00D084B5 /* Default.png in Resources */,
 				51CD25F116CF16BA00D084B5 /* Default@2x.png in Resources */,
 				51CD25F316CF16BA00D084B5 /* Default-568h@2x.png in Resources */,
-				51CD25F916CF16BA00D084B5 /* ACViewController_iPhone.xib in Resources */,
-				51CD25FC16CF16BA00D084B5 /* ACViewController_iPad.xib in Resources */,
+				51CD25F916CF16BA00D084B5 /* ACViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +300,8 @@
 				51CD25E916CF16B900D084B5 /* main.m in Sources */,
 				51CD25ED16CF16B900D084B5 /* ACAppDelegate.m in Sources */,
 				51CD25F616CF16BA00D084B5 /* ACViewController.m in Sources */,
+				51CD261D16CF16F900D084B5 /* ACStoreProductViewController.m in Sources */,
+				51CD262216CF1C2400D084B5 /* NSDictionary+QueryStringBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +332,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		51CD25F716CF16BA00D084B5 /* ACViewController_iPhone.xib */ = {
+		51CD25F716CF16BA00D084B5 /* ACViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				51CD25F816CF16BA00D084B5 /* en */,
 			);
-			name = ACViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		51CD25FA16CF16BA00D084B5 /* ACViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51CD25FB16CF16BA00D084B5 /* en */,
-			);
-			name = ACViewController_iPad.xib;
+			name = ACViewController.xib;
 			sourceTree = "<group>";
 		};
 		51CD260C16CF16BA00D084B5 /* InfoPlist.strings */ = {
@@ -399,6 +415,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACStoreExample/ACStoreExample-Prefix.pch";
 				INFOPLIST_FILE = "ACStoreExample/ACStoreExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,6 +427,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACStoreExample/ACStoreExample-Prefix.pch";
 				INFOPLIST_FILE = "ACStoreExample/ACStoreExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -468,6 +486,7 @@
 				51CD261616CF16BA00D084B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51CD261716CF16BA00D084B5 /* Build configuration list for PBXNativeTarget "ACStoreExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +495,7 @@
 				51CD261916CF16BA00D084B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

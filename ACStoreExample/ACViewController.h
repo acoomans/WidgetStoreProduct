@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ACStoreProductViewController.h"
 
-@interface ACViewController : UIViewController
+@interface ACViewController : UIViewController <ACStoreProductViewControllerDelegate>
 
 @end
