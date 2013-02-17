@@ -28,12 +28,12 @@
 
 - (IBAction)buttonTapped:(id)sender {
 	
-	NSString *productIdentifier = @"543013018";		// software
-	//NSString *productIdentifier = @"560398387";		// album
-	//NSString *productIdentifier = @"475526561";		// ebook
-	//NSString *productIdentifier = @"183240799";		// tv show
-	//NSString *productIdentifier = @"286334988";		// movie
-	//NSString *productIdentifier = @"497799835";		// mac software
+	NSNumber *productIdentifier = @543013018;		// software
+	//NSNumber *productIdentifier = @560398387;		// album
+	//NSNumber *productIdentifier = @475526561;		// ebook
+	//NSNumber *productIdentifier = @183240799;		// tv show
+	//NSNumber *productIdentifier = @286334988;		// movie
+	//NSNumber *productIdentifier = @497799835;		// mac software
 	
 	ACStoreProductViewController *storeProductViewController = [[ACStoreProductViewController alloc] init];
 	storeProductViewController.affiliateIdentifier = @"2141033";

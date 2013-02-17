@@ -108,7 +108,7 @@ const NSString *kACStoreProductViewControllerLookupURLString = @"http://itunes.a
 							 @"e": self.productType,
 							 @"w": [NSString stringWithFormat:@"%.f", round(self.webView.bounds.size.width)],
 							 @"h": [NSString stringWithFormat:@"%.f", round(self.webView.bounds.size.height)],
-							 @"ids": (parameters[ACStoreProductParameterITunesItemIdentifier] ? parameters[ACStoreProductParameterITunesItemIdentifier] : @""),
+							 @"ids": [(parameters[ACStoreProductParameterITunesItemIdentifier] ? parameters[ACStoreProductParameterITunesItemIdentifier] : @0) description],
 							 @"wt": @"discovery",
 							 @"affiliate_id": (self.affiliateIdentifier ? self.affiliateIdentifier : @"2141033"),
 							 @"partnerId": (self.partnerIdentifier ? self.partnerIdentifier : @"24379")
@@ -126,7 +126,7 @@ const NSString *kACStoreProductViewControllerLookupURLString = @"http://itunes.a
 	
 	self.parameters = parameters;
 	NSString *queryString = [@{
-							 @"id": (parameters[ACStoreProductParameterITunesItemIdentifier] ? parameters[ACStoreProductParameterITunesItemIdentifier] : @""),
+							 @"id": [(parameters[ACStoreProductParameterITunesItemIdentifier] ? parameters[ACStoreProductParameterITunesItemIdentifier] : @0) description],
 							 } queryString];
 	NSString *urlString = [kACStoreProductViewControllerLookupURLString stringByAppendingString:queryString];
 	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]
