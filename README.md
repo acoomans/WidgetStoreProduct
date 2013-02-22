@@ -8,7 +8,7 @@ The problem is _SKStoreProductViewController_ doesn't take affiliate links. Offi
 
 _ACStoreProductViewController_ is an attempt to use [iTunes' widgets](http://widgets.itunes.apple.com/builder/) to replace _SKStoreProductViewController_ , being compatible with iOS5 and accepting affiliate links.
 
-*Warning: This should be seen as an experiment and I wouldn't advice using it in production code *
+*Warning* : This should be seen as an experiment and I wouldn't advice using it in production code.
 
 At this stage, overall experience isn't great. iTunes product is shown (poorly in HTML, not native). When selected, iOS applications lead to the store; iTunes music doesn't play the preview; and others products weren't tested.
 
