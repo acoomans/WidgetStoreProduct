@@ -1,4 +1,4 @@
-# ACStore
+# WidgetStoreProduct
 
 ## Description
 
